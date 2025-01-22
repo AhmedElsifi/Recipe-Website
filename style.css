@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Young Serif";
+    src: url(fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.main{
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    border-radius: 20px;
+    vertical-align: middle;
+    margin: 5% 25%;
+    padding: 3%;
+}
+
+.omelette_img{
+    border-radius: 12px;
+    height: auto;
+    width: 100%;
+}
+
+.maintitle{
+    font-family: "Young Serif";
+    text-transform: capitalize;
+    font-weight: 100;
+    color: hsl(24, 5%, 18%);
+}
+
+.details{
+    font-family: Outfit;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+.subtitle{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif";
+    font-size: 24px;
+    text-transform: capitalize;
+
+}
+
+.prep_time{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 2% 5%;
+    color: hsl(332, 51%, 32%);
+}
+
+.prep_time_title{
+    font-family: "Outfit";
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.li_first
+,.minititle{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit";
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+.list_det{
+    color: hsl(30, 10%, 34%);
+    display: inline;
+    font-family: "Outfit";
+    font-size: 16px;
+}
+
+.prep_list{
+    line-height: 25px;
+}
+
+.details_li
+,.details_ol{
+    font-family: Outfit;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0px 10px;
+    text-indent: 20px; 
+}
+
+ul li::marker {
+    content: '•'; 
+    font-size: 15px;
+    color: hsl(14, 45%, 36%);
+}
+
+ol li::marker {
+    font-size: 15px;
+    color: hsl(14, 45%, 36%);
+    /* text-indent: 20px;  */
+    
+}
+
+ol li{ 
+    padding: 0px 15px;
+}
+
+.nutrition_tb{
+    width: 100%;
+}
+
+td{
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(95, 87, 78 , 0.1);
+    color: #6b4a36;
+}
+
+tr:last-child td {
+    border-bottom: none;
+  }
+
+.quantities{
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit";
+}
+
+hr{
+    border-color:rgba(95, 87, 78 , 0.1);
+}
